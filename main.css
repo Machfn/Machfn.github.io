@@ -1,0 +1,70 @@
+body {
+    background-color: #242526;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-wrap: wrap-reverse;
+}   
+#text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    text-align: center;
+}
+#text h1 {
+    align-self: center;
+    font-size: 10vw;
+    filter: drop-shadow(10px 10px 1rem #6320EE);
+    margin-bottom: 10px;
+    /* box-shadow: 10px 10px 1rem #6320EE; */
+}
+#su {
+    justify-self: center;
+    width: 40%;
+    height: 40px;
+    max-width: 500px;
+    min-width: 400px;
+    border-radius: 15px;
+    text-indent: 10px;
+    font-size: 20px;
+}
+#su:focus {
+    border: 3px solid #6320EE;
+    box-shadow: 7px 7px 10px #6320EE;
+}
+#example {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    min-width: 600px;
+    
+}
+#example img {
+    margin-top: 10%;
+    width: 100%;
+}
+#radio {
+    width: 80%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    min-width: 650px;
+    overflow-x: scroll;
+}
+.feat {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 2px solid grey;
+    padding: 10px;
+    border-radius: 20px;
+}
+.feat svg {
+    filter: drop-shadow(5px 5px 1rem #6620ee)
+}

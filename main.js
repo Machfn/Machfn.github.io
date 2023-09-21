@@ -1,0 +1,1 @@
+let colors = ["242526", '6320EE', '8075FF', 'F8F0FB', 'CAD5CA'];
