@@ -14,10 +14,12 @@ let j = 1;
 setInterval(() => {
   let ele = document.getElementById("example");
   if (j === 0) {
-    ele.innerHTML = images[j];
+    ele.innerHTML = '';
+    ele.appendChild(images[j]);
     j++;
   } else if (j === 1) {
-    ele.innerHTML = images[j];
+    ele.innerHTML = '';
+    ele.appendChild(images[j]);
     j = 0;
   }
 }, 3600);
