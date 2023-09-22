@@ -12,7 +12,7 @@ for (i=0;i<paths.length;i++) {
 
 let j = 1;
 setInterval(() => {
-  let ele = document..getElementById("example");
+  let ele = document.getElementById("example");
   if (j === 0) {
     ele.innerHTML = images[j];
     j++;
