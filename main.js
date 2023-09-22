@@ -23,3 +23,11 @@ setInterval(() => {
     j = 0;
   }
 }, 3600);
+
+window.onload = () => {
+  if (navigator.userAgent.indexOf("Firefox") != -1) {
+    console.log("On firefox");
+    document.getElementById('text').style = "";
+    document.getElementById('example').style = "";
+  }
+}

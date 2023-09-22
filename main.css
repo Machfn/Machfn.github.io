@@ -13,7 +13,6 @@ body {
     align-items: center;
     width: 50%;
     text-align: center;
-    margin-top: -10%;
 }
 #text h1 {
     align-self: center;
@@ -41,7 +40,6 @@ body {
     display: flex;
     justify-content: center;
     min-width: 600px;
-    margin-top: -10%;
 }
 #example img {
     margin-top: 10%;
